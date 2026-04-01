@@ -14,6 +14,9 @@ Dataset strutturato ricavato dal **Nuovo vocabolario di base della lingua italia
 | `categoria` | Livello di frequenza/disponibilità (vedi sotto) | `alto_uso` |
 | `prefisso_numerico` | Numero disambiguante per gli omonimi (`1`, `2`, …); vuoto se assente | `1` |
 | `info_grammaticale` | Categorie grammaticali nella notazione originale | `s.m.` |
+| `pos` | Parte/i del discorso normalizzate (derivate da `info_grammaticale`) | `verbo; participio passato; aggettivo; sostantivo` |
+| `gender` | Informazioni di genere/numero/invariabilità estratte (quando presenti) | `maschile e femminile; invariabile` |
+| `info_verbali` | Marcatori verbali originali separati (es. transitività/participi) | `v.tr.` |
 
 ## Categorie
 
